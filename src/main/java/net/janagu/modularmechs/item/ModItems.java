@@ -13,7 +13,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, Modularmechs.MOD_ID);
 
     public static final RegistryObject<Item> VENTCOVER = ITEMS.register("vent_cover",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MECHA_TAB)));
 
 
     public static void register(IEventBus eventBus) {
